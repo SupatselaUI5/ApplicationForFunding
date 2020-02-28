@@ -1,0 +1,1502 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="gdsd.ApplicationForFunding1.controller.ProvincialBusinessPlanSectionD">
+	
+			<Page id="provincialD" title="Provincial Business Plan">
+				<content>
+						<HBox width="100%" id="hbox0" alignContent="Center" alignItems="Center" justifyContent="Center">
+					        <items>
+					            <Image src="pictures/social.jpg" width="100%" height="140px" id="image0" backgroundPosition="center"/>
+					        </items>
+					    </HBox>
+					
+				<IconTabBar selectedKey="filter2_copy4" id="bar0">
+					
+					
+				    <items>
+					
+					
+				        <IconTabFilter text="D1 Previous Funding" icon="sap-icon://task" iconColor="Critical" id="filter1">
+				        		<content>
+					
+				
+					
+			
+					
+				    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581853864015">
+					
+				
+					
+			
+					
+				        <sap.ui.layout.form:formContainers>
+					
+				
+					
+			
+					
+				            <sap.ui.layout.form:FormContainer title="SECTION D (Financial matters)" id="container0_1581853864015">
+					
+				
+					
+			
+					
+				                <sap.ui.layout.form:formElements>
+					
+				
+					
+			
+					
+				                    <sap.ui.layout.form:FormElement label="D1.&#9;Previous funding (refer to Schedule 2)" id="element0_1581853864015">
+					
+				
+					
+			
+					
+				                        <sap.ui.layout.form:fields><Input width="100%" id="input0_1581853864014"/>
+					
+				
+					
+			
+					
+				                        </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Source of funding" id="element0_1581853864015_copy">
+					
+				
+					
+			
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy" showValueHelp="true" value="Department of Social Development"/>
+					
+				
+					
+			
+					
+				                            </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                        
+					
+				
+					
+			
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Objectives" id="element0_1581853864015_copy2">
+					
+				
+					
+			
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                            <TextArea xmlns="sap.m" rows="4" id="area0_1581854070859"/>
+					
+				
+					
+			
+					
+				                            </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                        
+					
+				
+					
+			
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Amount of funds" id="element0_1581853864015_copy3">
+					
+				
+					
+			
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy2"/>
+					
+				
+					
+			
+					
+				                            
+					
+				
+					
+			
+					
+				                        </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                        
+					
+				
+					
+			
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Total Cost" id="element0_1581853864015_copy4">
+					
+				
+					
+			
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy3"/>
+					
+				
+					
+			
+					
+				                            
+					
+				
+					
+			
+					
+				                        </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                        
+					
+				
+					
+			
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="element0_1581853864015_copy5">
+					
+				
+					
+			
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                            <Button xmlns="sap.m" text="Add Previous Funding" id="button0_1581854162733" icon="sap-icon://add" type="Accept"/>
+					
+				
+					
+			
+					
+				                            </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				                        
+					
+				
+					
+			
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				                </sap.ui.layout.form:formElements>
+					
+				
+					
+			
+					
+				            </sap.ui.layout.form:FormContainer>
+					
+				
+					
+			
+					
+				        </sap.ui.layout.form:formContainers>
+					
+				
+					
+			
+					
+				        <sap.ui.layout.form:layout>
+					
+				
+					
+			
+					
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581853864015"/>
+					
+				
+					
+			
+					
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+				
+					
+			
+					
+				</content>
+				        	</IconTabFilter>
+					
+					
+				        <IconTabFilter text="D2 MTEF" icon="sap-icon://monitor-payments" iconColor="Positive" id="filter2">
+				        	
+				        	
+						<content>
+				        	
+				        	
+						    <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581853864015_copy">
+				        	
+				        	
+						        <sap.ui.layout.form:formContainers>
+				        	
+				        	
+						            <sap.ui.layout.form:FormContainer id="container0_1581853864015_copy2">
+				        	
+				        	
+						                <sap.ui.layout.form:formElements>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement label="D2.&#9;Medium Term Expenditure Framework (MTEF) allocations " id="element0_1581853864015_copy12">
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Financial Year" id="element0_1581853864015_copy13">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy9" showValueHelp="true" value="2017-2018"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Costs" id="element0_1581853864015_copy14">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_1581853864014_copy12"/>
+				        	
+				        	
+						                            </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Financial Year " id="element0_1581853864015_copy15">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy10" value="2018 - 2019"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Cost" id="element0_1581853864015_copy16">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy11"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Financial Year " id="element0_1581853864015_copy18">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy13" value="2019 - 2020"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Cost" id="element0_1581853864015_copy19">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy14"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Total Costs" id="element0_1581853864015_copy20">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy15"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="element0_1581853864015_copy17">
+				        	
+				        	
+						                        <sap.ui.layout.form:fields>
+				        	
+				        	
+						                            <Button xmlns="sap.m" text="Add Medium Term Expense" id="button0_1581854162733_copy2" icon="sap-icon://add" type="Accept"/>
+				        	
+				        	
+						                            
+				        	
+				        	
+						                        </sap.ui.layout.form:fields>
+				        	
+				        	
+						                        
+				        	
+				        	
+						                    </sap.ui.layout.form:FormElement>
+				        	
+				        	
+						                    </sap.ui.layout.form:formElements>
+				        	
+				        	
+						                
+				        	
+				        	
+						            </sap.ui.layout.form:FormContainer>
+				        	
+				        	
+						            
+				        	
+				        	
+						        </sap.ui.layout.form:formContainers>
+				        	
+				        	
+						        <sap.ui.layout.form:layout>
+				        	
+				        	
+						            <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581853864015_copy"/>
+				        	
+				        	
+						            
+				        	
+				        	
+						        </sap.ui.layout.form:layout>
+				        	
+				        	
+						        </sap.ui.layout.form:Form>
+				        	
+				        	
+						</content>
+				        	
+				        	
+						</IconTabFilter>
+					
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D3 Objective for Costing" icon="sap-icon://action" iconColor="Positive" id="filter2_copy">
+					
+					
+				            <content>
+					
+					
+				                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581853864015_copy2">
+					
+					
+				                    <sap.ui.layout.form:formContainers>
+					
+					
+				                        <sap.ui.layout.form:FormContainer id="container0_1581853864015_copy3">
+					
+					
+				                            <sap.ui.layout.form:formElements>
+					
+					
+				                                <sap.ui.layout.form:FormElement label="D3.&#9;Costing of current objectives" id="element0_1581853864015_copy21">
+					
+					
+				                                    </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Objectives" id="element0_1581853864015_copy22">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy16" showValueHelp="true"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Costs" id="element0_1581853864015_copy23">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_1581853864014_copy17"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Number of Beneficiaries Target area/community" id="element0_1581853864015_copy24">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy18"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Number of Beneficiaries" id="element0_1581853864015_copy30">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy23"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Funding Period" id="element0_1581853864015_copy25">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy19" value="2018 - 2019"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Total Costs" id="element0_1581853864015_copy28">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy22"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="element0_1581853864015_copy29">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Button xmlns="sap.m" text="Add Costing of Objective" id="button0_1581854162733_copy3" icon="sap-icon://add" type="Accept"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                </sap.ui.layout.form:formElements>
+					
+					
+				                            
+					
+					
+				                        </sap.ui.layout.form:FormContainer>
+					
+					
+				                        
+					
+					
+				                    </sap.ui.layout.form:formContainers>
+					
+					
+				                    <sap.ui.layout.form:layout>
+					
+					
+				                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581853864015_copy2"/>
+					
+					
+				                        
+					
+					
+				                    </sap.ui.layout.form:layout>
+					
+					
+				                    </sap.ui.layout.form:Form>
+					
+					
+				            </content>
+					
+					
+				            </IconTabFilter>
+					
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D4  Activity Plan" icon="sap-icon://signature" iconColor="Positive" id="filter2_copy2">
+					
+					
+				            <content>
+					
+					
+				                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581853864015_copy3">
+					
+					
+				                    <sap.ui.layout.form:formContainers>
+					
+					
+				                        <sap.ui.layout.form:FormContainer id="container0_1581853864015_copy4">
+					
+					
+				                            <sap.ui.layout.form:formElements>
+					
+					
+				                                <sap.ui.layout.form:FormElement label="D4.&#9;Activity Plan" id="element0_1581853864015_copy26">
+					
+					
+				                                    </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="(For each objective listed above, give details of how they will be achieved)" id="element0_1581853864015_copy37">
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Objective" id="element0_1581853864015_copy27">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy20" showValueHelp="true"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Activities" id="element0_1581853864015_copy31">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <TextArea xmlns="sap.m" rows="4" id="area0_1581855691539"/>
+					
+					
+				                                        </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Performance indicators" id="element0_1581853864015_copy32">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <TextArea xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" rows="4" id="area0_1581855691539_copy2"/>
+					
+					
+				                                        </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Outcome" id="element0_1581853864015_copy33">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <TextArea xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" rows="4" id="area0_1581855691539_copy3"/>
+					
+					
+				                                        </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Personnel and resources needed" id="element0_1581853864015_copy38">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <TextArea xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" rows="4" id="area0_1581855691539_copy4"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Location" id="element0_1581853864015_copy34">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy26"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Costs" id="element0_1581853864015_copy35">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy27"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="element0_1581853864015_copy36">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Button xmlns="sap.m" text="Add Activity Plan" id="button0_1581854162733_copy4" icon="sap-icon://add" type="Accept"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                </sap.ui.layout.form:formElements>
+					
+					
+				                            
+					
+					
+				                        </sap.ui.layout.form:FormContainer>
+					
+					
+				                        
+					
+					
+				                    </sap.ui.layout.form:formContainers>
+					
+					
+				                    <sap.ui.layout.form:layout>
+					
+					
+				                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581853864015_copy3"/>
+					
+					
+				                        
+					
+					
+				                    </sap.ui.layout.form:layout>
+					
+					
+				                    </sap.ui.layout.form:Form>
+					
+					
+				            </content>
+					
+					
+				            </IconTabFilter>
+					
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D5 Cost Summary" icon="sap-icon://travel-expense-report" iconColor="Positive" id="filter2_copy3">
+					
+					
+				            <content>
+					
+					
+				                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581853864015_copy4">
+					
+					
+				                    <sap.ui.layout.form:formContainers>
+					
+					
+				                        <sap.ui.layout.form:FormContainer id="container0_1581853864015_copy5">
+					
+					
+				                            <sap.ui.layout.form:formElements>
+					
+					
+				                                <sap.ui.layout.form:FormElement label="D5.&#9;Summary of Cost Implications" id="element0_1581853864015_copy39">
+					
+					
+				                                    </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Item" id="element0_1581853864015_copy40">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy21" showValueHelp="true" value="1.Personnel"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Objective 1" id="element0_1581853864015_copy48">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy32" showValueHelp="true"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Objective 2" id="element0_1581853864015_copy49">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns="sap.m" width="100%" id="input0_1581853864014_copy33" showValueHelp="true"/>
+					
+					
+				                                        
+					
+					
+				                                    </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Total " id="element0_1581853864015_copy41">
+					
+					
+				                                    <sap.ui.layout.form:fields>
+					
+					
+				                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_1581853864014_copy24"/>
+					
+					
+				                                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Add Summary of Cost Implication" id="button0_1581854162733_copy5" icon="sap-icon://add" type="Accept"/>
+					
+					
+				                                        </sap.ui.layout.form:fields>
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="element0_1581853864015_copy46">
+					
+					
+				                                    
+					
+					
+				                                </sap.ui.layout.form:FormElement>
+					
+					
+				                                </sap.ui.layout.form:formElements>
+					
+					
+				                            
+					
+					
+				                        </sap.ui.layout.form:FormContainer>
+					
+					
+				                        
+					
+					
+				                    </sap.ui.layout.form:formContainers>
+					
+					
+				                    <sap.ui.layout.form:layout>
+					
+					
+				                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581853864015_copy4"/>
+					
+					
+				                        
+					
+					
+				                    </sap.ui.layout.form:layout>
+					
+					
+				                    </sap.ui.layout.form:Form>
+					
+					
+				            </content>
+					
+					
+				            </IconTabFilter>
+					
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D6 Financial records" icon="sap-icon://expense-report" iconColor="Positive" id="filter2_copy4">
+					
+					<content>
+					
+				    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0">
+					
+				        <sap.ui.layout.form:formContainers>
+					
+				            <sap.ui.layout.form:FormContainer id="container0">
+					
+				                <sap.ui.layout.form:formElements>
+					
+				                    <sap.ui.layout.form:FormElement label="D6. Name of the person or firm responsible for managing your financial records" id="element0">
+					
+				                        <sap.ui.layout.form:fields>
+					
+				                            <TextArea xmlns="sap.m" rows="4" id="area0"/>
+					
+				                        </sap.ui.layout.form:fields>
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				                </sap.ui.layout.form:formElements>
+					
+				            </sap.ui.layout.form:FormContainer>
+					
+				        </sap.ui.layout.form:formContainers>
+					
+				        <sap.ui.layout.form:layout>
+					
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0"/>
+					
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+				</content>
+				
+				            </IconTabFilter>
+				            <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D7 Firm" icon="sap-icon://fax-machine" iconColor="Positive" id="filter2_copy5">
+					
+						<content>
+					
+				
+					
+				    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581851134597">
+					
+				
+					
+				        <sap.ui.layout.form:formContainers>
+					
+				
+					
+				            <sap.ui.layout.form:FormContainer id="container0_1581851134597">
+					
+				
+					
+				                <sap.ui.layout.form:formElements>
+					
+				
+					
+				                    <sap.ui.layout.form:FormElement label="D7.&#9;Individual or Firm registration number" id="element0_1581851134597">
+					
+				
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+				                            <Input width="100%" id="input0"/>
+					
+				
+					
+				                        </sap.ui.layout.form:fields>
+					
+				
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+				                </sap.ui.layout.form:formElements>
+					
+				
+					
+				            </sap.ui.layout.form:FormContainer>
+					
+				
+					
+				        </sap.ui.layout.form:formContainers>
+					
+				
+					
+				        <sap.ui.layout.form:layout>
+					
+				
+					
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581851134597"/>
+					
+				
+					
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+				
+					
+				</content>
+				            </IconTabFilter>
+					
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D8 Training" icon="sap-icon://kpi-managing-my-area" iconColor="Positive" id="filter2_copy6">
+						<content>
+					
+				
+					
+			
+					
+				
+					
+				    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581851207132">
+					
+				
+					
+			
+					
+				
+					
+				        <sap.ui.layout.form:formContainers>
+					
+				
+					
+			
+					
+				
+					
+				            <sap.ui.layout.form:FormContainer id="container0_1581851207132">
+					
+				
+					
+			
+					
+				
+					
+				                <sap.ui.layout.form:formElements>
+					
+				
+					
+			
+					
+				
+					
+				                    <sap.ui.layout.form:FormElement label="D8. What training has this person undergone?" id="element0_1581851207132">
+					
+				
+					
+			
+					
+				
+					
+				                        <sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				
+					
+				                            <Input width="100%" id="input0_1581851207131"/>
+					
+				
+					
+			
+					
+				
+					
+				                        </sap.ui.layout.form:fields>
+					
+				
+					
+			
+					
+				
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				
+					
+			
+					
+				
+					
+				                </sap.ui.layout.form:formElements>
+					
+				
+					
+			
+					
+				
+					
+				            </sap.ui.layout.form:FormContainer>
+					
+				
+					
+			
+					
+				
+					
+				        </sap.ui.layout.form:formContainers>
+					
+				
+					
+			
+					
+				
+					
+				        <sap.ui.layout.form:layout>
+					
+				
+					
+			
+					
+				
+					
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581851207132"/>
+					
+				
+					
+			
+					
+				
+					
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+				
+					
+			
+					
+				
+					
+				</content>
+					
+				
+					
+			
+					
+				
+					
+				            </IconTabFilter>
+					
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="D9 Contact" icon="sap-icon://customer-and-contacts" iconColor="Positive" id="filter2_copy7">
+					<content>
+				    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581851279791">
+					
+				        <sap.ui.layout.form:formContainers>
+					
+				            <sap.ui.layout.form:FormContainer id="container0_1581851279790">
+					
+				                <sap.ui.layout.form:formElements>
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="D9. Contact details (an outside individual or accounting company or auditor/chartered accountant" id="element0_1581851279790_copy">
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				                    <sap.ui.layout.form:FormElement label="Physical Address" id="element0_1581851279790">
+					
+				                        <sap.ui.layout.form:fields>
+					
+				                            <Input width="100%" id="input0_1581851279790"/>
+					
+				                            <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" width="100%" id="input0_1581851279790_copy"/>
+					
+				                            <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" width="100%" id="input0_1581851279790_copy2"/>
+					
+				                        </sap.ui.layout.form:fields>
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Postal Address" id="element0_1581851279790_copy2">
+					
+				                        <sap.ui.layout.form:fields>
+					
+					
+				                            <Input width="100%" id="input0_1581851279790_copy3"/>
+					
+					
+				                            <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" width="100%" id="input0_1581851279790_copy4"/>
+					
+				                            <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" width="100%" id="input0_1581851279790_copy5"/>
+					
+					
+				                            </sap.ui.layout.form:fields>
+				                    </sap.ui.layout.form:FormElement>
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Province" id="element0_1581851279790_copy4">
+					
+			
+					
+				                        <sap.ui.layout.form:fields>
+					
+				                            <Input width="100%" id="input0_1581851279790_copy7"/>
+					
+				                        </sap.ui.layout.form:fields>
+				                    </sap.ui.layout.form:FormElement>
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Postal Code" id="element0_1581851279790_copy3">
+					
+				
+				                        <sap.ui.layout.form:fields>
+				                            <Input width="100%" id="input0_1581851279790_copy6"/>
+				                            </sap.ui.layout.form:fields>
+				                    </sap.ui.layout.form:FormElement>
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Telephone Number" id="element0_1581851279790_copy8">
+					
+				                        <sap.ui.layout.form:fields>
+				                            <Input width="100%" id="input0_1581851279790_copy11"/>
+				                        </sap.ui.layout.form:fields>
+				                    </sap.ui.layout.form:FormElement>
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Cellphone Number" id="element0_1581851279790_copy7">
+					
+				                        <sap.ui.layout.form:fields>
+					
+				                            <Input width="100%" id="input0_1581851279790_copy10"/>
+					
+				                        </sap.ui.layout.form:fields>
+					
+				                    </sap.ui.layout.form:FormElement>
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Fax Number" id="element0_1581851279790_copy6">
+					
+				                        <sap.ui.layout.form:fields>
+				                            <Input width="100%" id="input0_1581851279790_copy9"/>
+				                        </sap.ui.layout.form:fields>
+					
+				                    </sap.ui.layout.form:FormElement>
+					
+				                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Email" id="element0_1581851279790_copy5">
+					
+				                        <sap.ui.layout.form:fields>
+				                            <Input width="100%" id="input0_1581851279790_copy8"/>
+				                        </sap.ui.layout.form:fields>
+				                    </sap.ui.layout.form:FormElement>
+				                </sap.ui.layout.form:formElements>
+				            </sap.ui.layout.form:FormContainer>
+					
+				        </sap.ui.layout.form:formContainers>
+				        <sap.ui.layout.form:layout>
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581851279790"/>
+					
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+					
+				</content>
+					
+				            </IconTabFilter>
+						
+						
+				        </items>
+					
+				
+					
+			
+					
+			
+					
+				
+					
+			
+					
+				</IconTabBar>
+					
+					
+				</content>
+			<footer>
+			      
+			            <Toolbar xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" class="sapContrast sapContrastPlus" width="100%" id="toolbar1_copy">
+			                <content>
+			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Cancel" id="button0"/>
+			                    <ToolbarSpacer xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="spacer0"/>
+			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Previous" id="button1_1581762131371" type="Back"/>
+			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Procced" id="button1" type="Emphasized"/>
+			                    </content>
+			            </Toolbar>
+			</footer>
+			</Page>
+		
+</mvc:View>

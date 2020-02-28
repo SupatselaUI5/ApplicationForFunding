@@ -1,0 +1,207 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="gdsd.ApplicationForFunding1.controller.ProvincialBusinessPlanSectionB">
+
+			<Page id="provincialB" title="Provincial Business Plan">
+				<content>
+						<HBox width="100%" id="hbox0" alignContent="Center" alignItems="Center" justifyContent="Center">
+					        <items>
+					            <Image src="pictures/social.jpg" width="100%" height="140px" id="image0" backgroundPosition="center"/>
+					        </items>
+					    </HBox>
+						<IconTabBar selectedKey="__xmlview0--filter2" id="bar0">
+						    <items>
+						        <IconTabFilter text="B1 Sustainability Plan" icon="sap-icon://task" iconColor="Critical" id="filter1">
+						        	
+						        <content>
+						        	
+						            <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy">
+						        	
+						                <sap.ui.layout.form:formContainers>
+						        	
+						                    <sap.ui.layout.form:FormContainer id="container0_copy">
+						        	
+						                        <sap.ui.layout.form:formElements>
+						        	
+						                            <sap.ui.layout.form:FormElement label="B1 Provide ways in which the organization makes plans to sustain itself in the following instances to ensure continued service provision" id="element0_copy">
+						        	
+						                                <sap.ui.layout.form:fields>
+						        	
+						                                    <TextArea xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" rows="4" id="area0_copy4"/>
+						        	
+						                                    
+						        	
+						                                </sap.ui.layout.form:fields>
+						        	
+						                                
+						        	
+						                            </sap.ui.layout.form:FormElement>
+						        	
+						                            
+						        	
+						                        </sap.ui.layout.form:formElements>
+						        	
+						                        
+						        	
+						                    </sap.ui.layout.form:FormContainer>
+						        	
+						                    
+						        	
+						                </sap.ui.layout.form:formContainers>
+						        	
+						                <sap.ui.layout.form:layout>
+						        	
+						                    <sap.ui.layout.form:ResponsiveGridLayout id="layout0_copy"/>
+						        	
+						                    
+						        	
+						                </sap.ui.layout.form:layout>
+						        	
+						                </sap.ui.layout.form:Form>
+						        	
+						        </content>
+						        	
+						        </IconTabFilter>	
+						        <IconTabFilter text="B2 Cessation " icon="sap-icon://newspaper" iconColor="Positive" id="filter2">
+						        	
+						        	
+						        <content>
+						        	
+						        	
+						            <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0">
+						        	
+						        	
+						                <sap.ui.layout.form:formContainers>
+						        	
+						        	
+						                    <sap.ui.layout.form:FormContainer id="container0">
+						        	
+						        	
+						                        <sap.ui.layout.form:formElements>
+						        	
+						        	
+						                            <sap.ui.layout.form:FormElement label="B2 After cessation of funds from the department" id="element0">
+						        	
+						        	
+						                                <sap.ui.layout.form:fields>
+						        	
+						        	
+						                                    <TextArea xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" rows="4" id="area0_copy3"/>
+						        	
+						        	
+						                                    
+						        	
+						        	
+						                                </sap.ui.layout.form:fields>
+						        	
+						        	
+						                                
+						        	
+						        	
+						                            </sap.ui.layout.form:FormElement>
+						        	
+						        	
+						                            
+						        	
+						        	
+						                        </sap.ui.layout.form:formElements>
+						        	
+						        	
+						                        
+						        	
+						        	
+						                    </sap.ui.layout.form:FormContainer>
+						        	
+						        	
+						                    
+						        	
+						        	
+						                </sap.ui.layout.form:formContainers>
+						        	
+						        	
+						                <sap.ui.layout.form:layout>
+						        	
+						        	
+						                    <sap.ui.layout.form:ResponsiveGridLayout id="layout0"/>
+						        	
+						        	
+						                    
+						        	
+						        	
+						                </sap.ui.layout.form:layout>
+						        	
+						        	
+						                </sap.ui.layout.form:Form>
+						        	
+						        	
+						        </content>
+						        	
+						        	
+						        </IconTabFilter>	
+						        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="B3 Budget " icon="sap-icon://customer-financial-fact-sheet" iconColor="Positive" id="filter2_copy">	
+						            <content>	
+						                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy2">	
+						                    <sap.ui.layout.form:formContainers>	
+						                        <sap.ui.layout.form:FormContainer id="container0_copy2">	
+						                            <sap.ui.layout.form:formElements>	
+						                                <sap.ui.layout.form:FormElement label="B3 In the event that there are budget cuts " id="element0_copy2">	
+						                                    <sap.ui.layout.form:fields>	
+						                                        <TextArea xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" rows="4" id="area0_copy2"/>	
+						                                        	
+						                                    </sap.ui.layout.form:fields>	
+						                                    	
+						                                </sap.ui.layout.form:FormElement>	
+						                                	
+						                            </sap.ui.layout.form:formElements>	
+						                            	
+						                        </sap.ui.layout.form:FormContainer>	
+						                        	
+						                    </sap.ui.layout.form:formContainers>	
+						                    <sap.ui.layout.form:layout>	
+						                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_copy2"/>	
+						                        	
+						                    </sap.ui.layout.form:layout>	
+						                    </sap.ui.layout.form:Form>	
+						            </content>	
+						            </IconTabFilter>	
+						        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="B4 Priority " icon="sap-icon://system-exit-2" iconColor="Positive" id="filter2_copy2">	
+						            <content>	
+						                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy3">	
+						                    <sap.ui.layout.form:formContainers>	
+						                        <sap.ui.layout.form:FormContainer id="container0_copy3">	
+						                            <sap.ui.layout.form:formElements>	
+						                                <sap.ui.layout.form:FormElement label="B4 In the event that the programme is no longer a priority from the funding perspective " id="element0_copy3">	
+						                                    <sap.ui.layout.form:fields>	
+						                                        <TextArea xmlns="sap.m" rows="4" id="area0"/>	
+						                                        	
+						                                    </sap.ui.layout.form:fields>	
+						                                    	
+						                                </sap.ui.layout.form:FormElement>	
+						                                	
+						                            </sap.ui.layout.form:formElements>	
+						                            	
+						                        </sap.ui.layout.form:FormContainer>	
+						                        	
+						                    </sap.ui.layout.form:formContainers>	
+						                    <sap.ui.layout.form:layout>	
+						                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_copy3"/>	
+						                        	
+						                    </sap.ui.layout.form:layout>	
+						                    </sap.ui.layout.form:Form>	
+						            </content>	
+						            </IconTabFilter>
+						        </items>
+						</IconTabBar>
+					
+				</content>
+			<footer>
+			    <Toolbar class="sapContrast sapContrastPlus" width="100%" id="toolbar1">
+			        <content>
+			            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Cancel" id="button0"/>
+			            <ToolbarSpacer xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="spacer0"/>
+			            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Previous" id="button1_1581762131371" type="Back"/>
+			            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Procced" id="button1" type="Emphasized" press="action" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionC'\}\}\}"/>
+			        </content>
+			    </Toolbar>
+			</footer>
+			</Page>
+	
+</mvc:View>

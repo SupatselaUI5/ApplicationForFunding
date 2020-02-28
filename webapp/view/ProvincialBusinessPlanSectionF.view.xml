@@ -1,0 +1,102 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="gdsd.ApplicationForFunding1.controller.ProvincialBusinessPlanSectionF">
+
+			<Page id="provincialF" title="Provincial Business Plan">
+				<content>
+					
+						<HBox width="100%" id="hbox0" alignContent="Center" alignItems="Center" justifyContent="Center">
+					        <items>
+					            <Image src="pictures/social.jpg" width="100%" height="140px" id="image0" backgroundPosition="center"/>
+					        </items>
+					    </HBox>
+				<IconTabBar selectedKey="__xmlview0--filter1" id="bar0">
+					
+				    <items>
+					
+				        <IconTabFilter text="F Checklist" icon="sap-icon://task" iconColor="Critical" id="filter1">
+				        
+				        </IconTabFilter>
+					
+				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="F Checklist" icon="sap-icon://task" iconColor="Critical" id="filter1_copy">
+					
+				            </IconTabFilter>
+					</items>
+		
+				<content>
+		
+				    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0">
+		
+				        <sap.ui.layout.form:formContainers>
+		
+				            <sap.ui.layout.form:FormContainer id="container0" title="SECTION F (Checklist)">
+		
+				                <sap.ui.layout.form:formElements>
+		
+				                    <sap.ui.layout.form:FormElement label="Check if the following documents have been submitted. Please tick applicable box." id="element0">
+		
+				                        <sap.ui.layout.form:fields>
+		
+				                            <CheckBox xmlns="sap.m" text="F1.&#9;Business Plan " selected="false" id="box0"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F2.&#9;Constitution " selected="false" id="box0_copy"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F3.&#9;Organisational Structure (Organigram) " selected="false" id="box0_copy2"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F4.&#9;NPO Registration Certificate " selected="false" id="box0_copy3"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F5.&#9;Any other " selected="false" id="box0_copy4"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F6. &#9;Proof that the service provider is in process of registering " selected="false" id="box0_copy5"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F7. &#9;Confirmation of Banking Details " selected="false" id="box0_copy6"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F8. &#9;Financial Assurance Declaration " selected="false" id="box0_copy7"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F9. &#9;Certified Bank Statement " selected="false" id="box0_copy14"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F10. &#9;Audited Financial Statement (if previously funded by department) " selected="false" id="box0_copy8"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F11. &#9;Six monthly progress report " selected="false" id="box0_copy9"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F12. &#9;Cashflow statement " selected="false" id="box0_copy10"/>
+		
+				                            <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="F13. &#9;Others (Specify)  " selected="false" id="box0_copy11"/>
+		
+				                            <Label text="Any Other Remarks" width="100%" id="label3"/>
+		
+				                            <TextArea xmlns="sap.m" rows="4" id="area0"/>
+		
+				                        </sap.ui.layout.form:fields>
+		
+				                    </sap.ui.layout.form:FormElement>
+		
+				                </sap.ui.layout.form:formElements>
+		
+				            </sap.ui.layout.form:FormContainer>
+		
+				        </sap.ui.layout.form:formContainers>
+		
+				        <sap.ui.layout.form:layout>
+		
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0"/>
+		
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+		
+				</content>
+		
+				</IconTabBar>
+					
+				</content>
+						<footer>
+			      
+			            <Toolbar xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" class="sapContrast sapContrastPlus" width="100%" id="toolbar1_copy">
+			                <content>
+			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Cancel" id="button0"/>
+			                    <ToolbarSpacer xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="spacer0"/>
+			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Previous" id="button1_1581762131371" type="Back"/>
+			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Procced" id="button1" type="Emphasized"/>
+			                    </content>
+			            </Toolbar>
+			</footer>
+			</Page>
+	
+</mvc:View>
