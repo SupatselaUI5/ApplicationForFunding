@@ -9,15 +9,13 @@
 					        </items>
 					    </HBox>
 					
-					<IconTabBar selectedKey="filter2_copy11" id="bar0">
+					<IconTabBar selectedKey="__xmlview0--filter2_copy17" id="bar0">
 					
 					    <items>
 					
-					        <IconTabFilter text="A1 Admin" icon="sap-icon://task" iconColor="Critical" id="filter1">
+					        <IconTabFilter text="A1 Admin" icon="sap-icon://task" iconColor="Critical" id="filter1" key="adminKey">
 					
 					            <content>
-					
-					                <OverflowToolbar width="100%" id="toolbar1"/>
 					
 					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy">
 					
@@ -63,7 +61,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy11" enabled="false" editable="false"/>
+					                                        <Input width="100%" id="input0_copy11" editable="false"/>
 					
 					                                        
 					
@@ -77,13 +75,13 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy12"/>
+					                                        <Input width="100%" id="input0_copy12" editable="false"/>
 					
-					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy13"/>
+					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy13" editable="false"/>
 					
 					                                        <Label text="Postal Code" width="100%" id="label0_copy"/>
 					
-					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy14"/>
+					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy14" editable="false"/>
 					
 					                                        </sap.ui.layout.form:fields>
 					
@@ -95,7 +93,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy15"/>
+					                                        <Input width="100%" id="input0_copy15" editable="false"/>
 					
 					                                        
 					
@@ -109,7 +107,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy16"/>
+					                                        <Input width="100%" id="input0_copy16" editable="false"/>
 					
 					                                        
 					
@@ -149,7 +147,7 @@
 					
 					                                <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy2" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'MainPage'\}\}\}" icon="sap-icon://nav-back"/>
 					
-					                                <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy2" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionB'\}\}\}" icon="sap-icon://navigation-right-arrow" iconFirst="false"/>
+					                                <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy2" press="onToStreetAddress" icon="sap-icon://navigation-right-arrow" iconFirst="false"/>
 					
 					                            </items>
 					
@@ -163,7 +161,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter text="A2 Street Address" icon="sap-icon://bus-public-transport" iconColor="Positive" id="filter2">
+					        <IconTabFilter text="A2 Street Address" icon="sap-icon://bus-public-transport" iconColor="Positive" id="streetaddress" key="streetaddressKey">
 					
 					            <content>
 					
@@ -215,195 +213,25 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
-					            </content>
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy3" alignItems="Center" justifyContent="Center">
 					
-					        </IconTabFilter>
+					                    <items>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A3 Type of application " icon="sap-icon://thing-type" iconColor="Positive" id="filter2_copy2">
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy5" icon="sap-icon://nav-back" press="onToAdmin"/>
 					
-					            <content>
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy5" press="onToName" icon="sap-icon://navigation-right-arrow" iconFirst="false"/>
 					
-					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy4">
+					                        </items>
 					
-					                    <sap.ui.layout.form:formContainers>
+					                    
 					
-					                        <sap.ui.layout.form:FormContainer id="container0_copy6">
-					
-					                            <sap.ui.layout.form:formElements>
-					
-					                                <sap.ui.layout.form:FormElement label="A3. Type of application (Please note that the service provider may tick more than one box. Provide reasons for the extension of service)" id="element0_copy7">
-					
-					                                    </sap.ui.layout.form:FormElement>
-					
-					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Street address" id="element0_copy24">
-					
-					                                    <sap.ui.layout.form:fields>
-					
-					                                        <CheckBox xmlns="sap.m" text="New Application" selected="false" id="box0"/>
-					
-					                                        <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Existing Application" selected="false" id="box0_copy"/>
-					
-					                                        <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Geographic extension" selected="false" id="box0_copy2"/>
-					
-					                                        <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Service extension" selected="false" id="box0_copy3"/>
-					
-					                                        </sap.ui.layout.form:fields>
-					
-					                                    
-					
-					                                </sap.ui.layout.form:FormElement>
-					
-					                                </sap.ui.layout.form:formElements>
-					
-					                            
-					
-					                        </sap.ui.layout.form:FormContainer>
-					
-					                        
-					
-					                    </sap.ui.layout.form:formContainers>
-					
-					                    <sap.ui.layout.form:layout>
-					
-					                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_copy4"/>
-					
-					                        
-					
-					                    </sap.ui.layout.form:layout>
-					
-					                    </sap.ui.layout.form:Form>
-					
-					                
+					                </FlexBox>
 					
 					            </content>
 					
-					            
-					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A4 Motivation" icon="sap-icon://media-play" iconColor="Positive" id="filter2_copy3">
-					
-					            <content>
-					
-					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy5">
-					
-					                    <sap.ui.layout.form:formContainers>
-					
-					                        <sap.ui.layout.form:FormContainer id="container0_copy7">
-					
-					                            <sap.ui.layout.form:formElements>
-					
-					                                <sap.ui.layout.form:FormElement label="A4. Motivation" id="element0_copy8">
-					
-					                                    </sap.ui.layout.form:FormElement>
-					
-					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Motivation" id="element0_copy25">
-					
-					                                    <sap.ui.layout.form:fields>
-					
-					                                        <TextArea xmlns="sap.m" rows="4" id="area0"/>
-					
-					                                        </sap.ui.layout.form:fields>
-					
-					                                    
-					
-					                                </sap.ui.layout.form:FormElement>
-					
-					                                </sap.ui.layout.form:formElements>
-					
-					                            
-					
-					                        </sap.ui.layout.form:FormContainer>
-					
-					                        
-					
-					                    </sap.ui.layout.form:formContainers>
-					
-					                    <sap.ui.layout.form:layout>
-					
-					                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_copy5"/>
-					
-					                        
-					
-					                    </sap.ui.layout.form:layout>
-					
-					                    </sap.ui.layout.form:Form>
-					
-					                
-					
-					            </content>
-					
-					            
-					
-					        </IconTabFilter>
-					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A5 Category and Registration" icon="sap-icon://create-form" iconColor="Positive" id="filter2_copy4">
-					
-					            <content>
-					
-					                <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581778992191">
-					
-					                    <sap.ui.layout.form:formContainers>
-					
-					                        <sap.ui.layout.form:FormContainer title="A5. Category and Registration" id="container0_1581778992188">
-					
-					                            <sap.ui.layout.form:formElements>
-					
-					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Category" id="element0_1581778992187_copy">
-					
-					                                    <sap.ui.layout.form:fields>
-					
-					                                        <Input width="100%" id="input0_copy67" showValueHelp="true" value="NPO"/>
-					
-					                                        
-					
-					                                    </sap.ui.layout.form:fields>
-					
-					                                    
-					
-					                                </sap.ui.layout.form:FormElement>
-					
-					                                <sap.ui.layout.form:FormElement label="Select the relevant type of registration" id="element0_1581778992187">
-					
-					                                <sap.ui.layout.form:fields>
-					
-					                                    <CheckBox xmlns="sap.m" text="Non Profit Organisation (NPO)" selected="false" id="box0_1581779693790"/>
-					
-					                                    <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Trust" selected="false" id="box0_1581779693790_copy"/>
-					
-					                                    <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Section 21" selected="false" id="box0_1581779693790_copy2"/>
-					
-					                                    <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Affiliation with registered network" selected="false" id="box0_1581779693790_copy3"/>
-					
-					                                    <CheckBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="In process applying for registration" selected="false" id="box0_1581779693790_copy4"/>
-					
-					                                    <Label text="Other (specify)" width="100%" id="label0_1581779826490"/>
-					
-					                                    <Input xmlns="sap.m" id="input0"/>
-					
-					                                </sap.ui.layout.form:fields>
-					
-					                                </sap.ui.layout.form:FormElement>
-					
-					                            </sap.ui.layout.form:formElements>
-					
-					                        </sap.ui.layout.form:FormContainer>
-					
-					                    </sap.ui.layout.form:formContainers>
-					
-					                    <sap.ui.layout.form:layout>
-					
-					                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581778992189"/>
-					
-					                    </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
-					
-					                </content>
-					
-					            
-					
-					        </IconTabFilter>
-					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A6 Name / title of the programme" icon="sap-icon://signature" iconColor="Positive" id="filter2_copy5">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A6 Name / title of the programme" icon="sap-icon://signature" iconColor="Positive" id="filter2_copy5" key="nameKey">
 					
 					            <content>
 					
@@ -511,13 +339,27 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy5" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy7" press="onToStreetAddress" icon="sap-icon://nav-back"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy7" press="onToHistory" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionB'\}\}\}" icon="sap-icon://navigation-right-arrow" iconFirst="false"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					                </content>
 					
 					            
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A7 History of the programme" icon="sap-icon://customer-history" iconColor="Positive" id="filter2_copy6">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A7 History of the programme" icon="sap-icon://customer-history" iconColor="Positive" id="filter2_copy6" key="historyKey">
 					
 					            <content>
 					
@@ -599,6 +441,20 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy6" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy8" icon="sap-icon://nav-back" press="goToName"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy8" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="goToTarget"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					                
 					
 					            </content>
@@ -607,7 +463,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A8 Target Groups" icon="sap-icon://employee-pane" iconColor="Positive" id="filter2_copy7">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A8 Target Groups" icon="sap-icon://employee-pane" iconColor="Positive" id="filter2_copy7" key="targetKey">
 					
 					            <content>
 					
@@ -810,6 +666,20 @@
 					                                </sap.ui.layout.form:layout>
 					
 					                                </sap.ui.layout.form:Form>
+					
+					                            <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy7" alignItems="Center" justifyContent="Center">
+					
+					                                <items>
+					
+					                                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy9" icon="sap-icon://nav-back" press="onToHistory"/>
+					
+					                                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy9" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToDescribe"/>
+					
+					                                    </items>
+					
+					                                
+					
+					                            </FlexBox>
 					
 					                        </content>
 					
@@ -1657,7 +1527,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A9 Describe how beneficiaries " icon="sap-icon://hr-approval" iconColor="Positive" id="filter2_copy8">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A9 Describe how beneficiaries " icon="sap-icon://hr-approval" iconColor="Positive" id="filter2_copy8" key="describeKey">
 						<content>
 					
 					    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form2">
@@ -1690,12 +1560,26 @@
 					
 					        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
 					
+					    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy8" alignItems="Center" justifyContent="Center">
+					
+					        <items>
+					
+					            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy10" icon="sap-icon://nav-back" press="goToTarget"/>
+					
+					            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy10" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToPurpose"/>
+					
+					            </items>
+					
+					        
+					
+					    </FlexBox>
+					
 					</content>
 					            
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A10 Purpose of the programme" icon="sap-icon://measure" iconColor="Positive" id="filter2_copy9">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A10 Purpose of the programme" icon="sap-icon://measure" iconColor="Positive" id="filter2_copy9" key="purposeKey">
 					
 					            <content>
 					
@@ -1743,11 +1627,25 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy9" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy11" icon="sap-icon://nav-back" press="onToDescribe"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy11" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToType"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					            </content>
 					
 					            </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A11 Type of Service" icon="sap-icon://vehicle-repair" iconColor="Positive" id="filter2_copy11">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A11 Type of Service" icon="sap-icon://vehicle-repair" iconColor="Positive" id="filter2_copy11" key="typeKey">
 					
 					            <content>
 					
@@ -1795,6 +1693,20 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy10" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy12" icon="sap-icon://nav-back" press="onToPurpose"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy12" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="goToPoor"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					                
 					
 					            </content>
@@ -1803,7 +1715,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A12 Poor and vulnerable " icon="sap-icon://person-placeholder" iconColor="Positive" id="filter2_copy12">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A12 Poor and vulnerable " icon="sap-icon://person-placeholder" iconColor="Positive" id="filter2_copy12" key="poorKey">
 					
 					            <content>
 					
@@ -1861,6 +1773,20 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy11" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy13" icon="sap-icon://nav-back" press="onToType"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy13" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToPoor2"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					                
 					
 					            </content>
@@ -1869,7 +1795,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A13 Poor and vulnerable " icon="sap-icon://person-placeholder" iconColor="Positive" id="filter2_copy13">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A13 Poor and vulnerable " icon="sap-icon://person-placeholder" iconColor="Positive" id="filter2_copy13" key="poorKey2">
 					
 					            <content>
 					
@@ -1915,6 +1841,20 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy12" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy14" icon="sap-icon://nav-back" press="goToPoor"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy14" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProvince"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					                
 					
 					            </content>
@@ -1923,7 +1863,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A14 Province" icon="sap-icon://paper-plane" iconColor="Positive" id="filter2_copy14">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A14 Province" icon="sap-icon://paper-plane" iconColor="Positive" id="filter2_copy14" key="provinceKey">
 					
 					            <content>
 					
@@ -1985,6 +1925,20 @@
 					
 					                    </sap.ui.layout.form:Form>
 					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy13" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy15" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy15" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
+					
 					                
 					
 					            </content>
@@ -1993,545 +1947,7 @@
 					
 					        </IconTabFilter>
 					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A15 Staff Numbers" icon="sap-icon://employee" iconColor="Positive" id="filter2_copy15">
-					
-					            <content>
-					
-					                <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581782739911">
-					
-					                    <sap.ui.layout.form:formContainers>
-					
-					                        <sap.ui.layout.form:FormContainer title="Paid Staff" id="container0_1581782739908">
-					
-					                            <sap.ui.layout.form:formElements>
-					
-					                                <sap.ui.layout.form:FormElement id="element0_1581782739907">
-					
-					                                    <sap.ui.layout.form:fields>
-					
-					                                        <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" noDataText="Drop column list items here and columns in the area above" id="table0_copy3">
-					
-					                                            <items>
-					
-					                                                <ColumnListItem type="Active" id="item0_copy3">
-					
-					                                                    <cells>
-					
-					                                                        <Text text="59" id="text0_copy3"/>
-					
-					                                                        <Text text="20" id="text1_copy3"/>
-					
-					                                                        <Text text="Row 1 Cell 3" id="text2_copy3"/>
-					
-					                                                        </cells>
-					
-					                                                    
-					
-					                                                </ColumnListItem>
-					
-					                                                
-					
-					                                            </items>
-					
-					                                            <columns>
-					
-					                                                <Column id="column0_copy3">
-					
-					                                                    <header>
-					
-					                                                        <Label text="No. of full-time staff" id="label0_1581767305913_copy3"/>
-					
-					                                                        
-					
-					                                                    </header>
-					
-					                                                    
-					
-					                                                </Column>
-					
-					                                                <Column id="column1_copy3">
-					
-					                                                    <header>
-					
-					                                                        <Label text="No. of part time staff" id="label1_copy3"/>
-					
-					                                                        
-					
-					                                                    </header>
-					
-					                                                    
-					
-					                                                </Column>
-					
-					                                                </columns>
-					
-					                                            </Table>
-					
-					                                    </sap.ui.layout.form:fields>
-					
-					                                </sap.ui.layout.form:FormElement>
-					
-					                            </sap.ui.layout.form:formElements>
-					
-					                        </sap.ui.layout.form:FormContainer>
-					
-					                    </sap.ui.layout.form:formContainers>
-					
-					                    <sap.ui.layout.form:layout>
-					
-					                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581782739909"/>
-					
-					                    </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
-					
-					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_1581782739911_copy">
-					
-					                    <sap.ui.layout.form:formContainers>
-					
-					                        <sap.ui.layout.form:FormContainer title="Volunteers" id="container0_1581782739908_copy">
-					
-					                            <sap.ui.layout.form:formElements>
-					
-					                                <sap.ui.layout.form:FormElement id="element0_1581782739907_copy">
-					
-					                                    <sap.ui.layout.form:fields>
-					
-					                                        <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" noDataText="Drop column list items here and columns in the area above" id="table0_copy4">
-					
-					                                            <items>
-					
-					                                                <ColumnListItem type="Active" id="item0_copy4">
-					
-					                                                    <cells>
-					
-					                                                        <Text text="20" id="text0_copy4"/>
-					
-					                                                        <Text text="12" id="text1_copy4"/>
-					
-					                                                        <Text text="Row 1 Cell 3" id="text2_copy4"/>
-					
-					                                                        </cells>
-					
-					                                                    
-					
-					                                                </ColumnListItem>
-					
-					                                                
-					
-					                                            </items>
-					
-					                                            <columns>
-					
-					                                                <Column id="column0_copy4">
-					
-					                                                    <header>
-					
-					                                                        <Label text="No. of full-time staff" id="label0_1581767305913_copy4"/>
-					
-					                                                        
-					
-					                                                    </header>
-					
-					                                                    
-					
-					                                                </Column>
-					
-					                                                <Column id="column1_copy4">
-					
-					                                                    <header>
-					
-					                                                        <Label text="No. of part time staff" id="label1_copy4"/>
-					
-					                                                        
-					
-					                                                    </header>
-					
-					                                                    
-					
-					                                                </Column>
-					
-					                                                </columns>
-					
-					                                            </Table>
-					
-					                                        
-					
-					                                    </sap.ui.layout.form:fields>
-					
-					                                    
-					
-					                                </sap.ui.layout.form:FormElement>
-					
-					                                
-					
-					                            </sap.ui.layout.form:formElements>
-					
-					                            
-					
-					                        </sap.ui.layout.form:FormContainer>
-					
-					                        
-					
-					                    </sap.ui.layout.form:formContainers>
-					
-					                    <sap.ui.layout.form:layout>
-					
-					                        <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581782739909_copy"/>
-					
-					                        
-					
-					                    </sap.ui.layout.form:layout>
-					
-					                    </sap.ui.layout.form:Form>
-					
-					                </content>
-					
-					            
-					
-					        </IconTabFilter>
-					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A16 Governance and Management" icon="sap-icon://kpi-managing-my-area" iconColor="Positive" id="filter2_copy16">
-					
-					            	<content>
-					
-				
-					
-					    <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0">
-					
-				
-					
-					        <sap.ui.layout.form:formContainers>
-					
-				
-					
-					            <sap.ui.layout.form:FormContainer title="A.16 Governance and Management" id="container0_1581767508493">
-					
-				
-					
-					                <sap.ui.layout.form:formElements>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement label="Structure and management of the programme(Provide details each management committee of the programme including race, gender, and disability, if any. Also attach an organigram or schematic representation of the organisational structure as Annexure D)." id="element0">
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Name" id="element0_copy3">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy2"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Position" id="element0_copy13">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy3"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Home Number" id="element0_copy16">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy4"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Teephone Number" id="element0_copy18">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy8"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Cellphone Number" id="element0_copy17">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy7"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="ID Number" id="element0_copy31">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy19"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Gender" id="element0_copy38">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy20" showValueHelp="true"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Race" id="element0_copy39">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy21" showValueHelp="true"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Nature Of disability (where applicable" id="element0_copy40">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy22"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Experience and specific expertise in area of service" id="element0_copy41">
-					
-				
-					
-					                        <sap.ui.layout.form:fields>
-					
-				
-					
-					                            <Input width="100%" id="input0_copy23"/>
-					
-				
-					
-					                            <Button xmlns="sap.m" text="Add Management Item" id="button0_1581866978222" icon="sap-icon://add"/>
-					
-				
-					
-					                            
-					
-				
-					
-					                        </sap.ui.layout.form:fields>
-					
-				
-					
-					                        
-					
-				
-					
-					                    </sap.ui.layout.form:FormElement>
-					
-				
-					
-					                </sap.ui.layout.form:formElements>
-					
-				
-					
-					            </sap.ui.layout.form:FormContainer>
-					
-				
-					
-					        </sap.ui.layout.form:formContainers>
-					
-				
-					
-					        <sap.ui.layout.form:layout>
-					
-				
-					
-					            <sap.ui.layout.form:ResponsiveGridLayout id="layout0"/>
-					
-				
-					
-					        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
-					
-				
-					
-					</content>
-					
-					        </IconTabFilter>
-					
-					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A17 Profile of Staff" icon="sap-icon://add-employee" iconColor="Positive" id="filter2_copy17">
+					        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="A17 Profile of Staff" icon="sap-icon://add-employee" iconColor="Positive" id="filter2_copy17" key="profileKey">
 					
 					            <content>
 					
@@ -3326,6 +2742,20 @@
 					                    </sap.ui.layout.form:layout>
 					
 					                    </sap.ui.layout.form:Form>
+					
+					                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy16" alignItems="Center" justifyContent="Center">
+					
+					                    <items>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="onToProvince"/>
+					
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Submit" id="button0_copy19" icon="sap-icon://complete"/>
+					
+					                        </items>
+					
+					                    
+					
+					                </FlexBox>
 					
 					                </content>
 					
