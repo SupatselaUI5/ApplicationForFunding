@@ -16,7 +16,13 @@
 					                <sap.ui.layout.form:formElements>
 					                    <sap.ui.layout.form:FormElement label="Program Type" id="element0">
 					                        <sap.ui.layout.form:fields>
-					                            <Input width="100%" id="input0" showValueHelp="true"/>
+					                            <ComboBox xmlns="sap.m" id="box0" placeholder="Select Program Type">
+					                                <items>
+					                                    <core:Item xmlns:core="sap.ui.core" key="item-1-key" text="CYCC" id="item0"/>
+					                                    <core:Item xmlns:core="sap.ui.core" key="item-2-key" text="ECD" id="item1"/>
+					                                    </items>
+					                                
+					                            </ComboBox>
 					                        </sap.ui.layout.form:fields>
 					                    </sap.ui.layout.form:FormElement>
 					                    <sap.ui.layout.form:FormElement xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="element0_copy3">
