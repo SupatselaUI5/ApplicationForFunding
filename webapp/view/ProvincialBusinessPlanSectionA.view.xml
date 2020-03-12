@@ -3,11 +3,25 @@
 			<Page id="provincialA" title="Provincial Business Plan">
 				<content>
 					
-					<HBox width="100%" id="hbox0" alignContent="Center" alignItems="Center" justifyContent="Center">
-					        <items>
-					            <Image src="pictures/social.jpg" width="100%" height="140px" id="image0" backgroundPosition="center"/>
-					        </items>
-					    </HBox>
+					<ObjectHeader xmlns="sap.m" title="Header Text" number="100.00" numberUnit="$" id="header0" icon="pictures/icon.jpg">
+					
+					                    <statuses>
+					
+					                        <ObjectStatus text="Success" state="Success" id="status0"/>
+					
+					                        
+					
+					                    </statuses>
+					
+					                    <attributes>
+					
+					                        <ObjectAttribute text="10 units" id="attribute0"/>
+					
+					                        
+					
+					                    </attributes>
+					
+					                    </ObjectHeader>
 					
 					<IconTabBar selectedKey="__xmlview0--filter2_copy17" id="bar0">
 					
@@ -17,7 +31,7 @@
 					
 					            <content>
 					
-					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy">
+					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="sectionA">
 					
 					                    <sap.ui.layout.form:formContainers>
 					
@@ -29,11 +43,11 @@
 					
 					                                    </sap.ui.layout.form:FormElement>
 					
-					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="BP Number" id="element0_copy6">
+					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="BP Number" id="element0_copy6" fields="{/GET_BPSet}">
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy6" editable="false"/>
+					                                        <Input width="100%" id="input0_copy6" editable="false" value="{But000/Partner}"/>
 					
 					                                        
 					
@@ -103,7 +117,7 @@
 					
 					                                </sap.ui.layout.form:FormElement>
 					
-					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Cell No" id="element0_copy12">
+					                                <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Cell No" id="element0_copy12" fields="{path:'/GET_BPSet'}">
 					
 					                                    <sap.ui.layout.form:fields>
 					

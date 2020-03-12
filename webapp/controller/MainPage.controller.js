@@ -1,6 +1,12 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function (Controller) {
+		'jquery.sap.global',
+		'sap/m/MessageToast',
+		'sap/ui/core/Fragment',
+		'sap/ui/core/mvc/Controller',
+		'sap/ui/model/Filter',
+		'sap/ui/model/FilterOperator',
+		'sap/ui/model/json/JSONModel'
+], function (jQuery, MessageToast, Fragment, Controller, Filter, FilterOperator, JSONModel) {
 	"use strict";
 	return Controller.extend("gdsd.ApplicationForFunding1.controller.MainPage", {
 		/**
@@ -42,6 +48,67 @@ sap.ui.define([
 					this.getOwnerComponent().getRouter().navTo(oNavigation.routeName);
 				}
 			}
-		}
+			
+			
+			
+		},
+		/**
+		 *@memberOf gdsd.ApplicationForFunding1.controller.MainPage
+		 */
+	
+		
+		onOrgValueHelp: function() {
+			if (!this._oValueHelpDialog) {
+				Fragment.load({
+					name: "gdsd.ApplicationForFunding1.fragments.DialogOrganisation",
+					controller: this
+				}).then(function(oValueHelpDialog){
+					this._oValueHelpDialog = oValueHelpDialog;
+					this.getView().addDependent(this._oValueHelpDialog);
+					this._configValueHelpDialog();
+					this._oValueHelpDialog.open();
+				}.bind(this));
+			} else {
+				this._configValueHelpDialog();
+				this._oValueHelpDialog.open();
+			}
+		},
+		
+			_configValueHelpDialog: function() {
+		//	var sInputValue = this.byId().getValue(),
+		//	var oModel = this.getView().getModel(),
+		//		aProducts = oModel.getProperty("/ProductCollection");
+
+		//	aProducts.forEach(function (oProduct) {
+		//		oProduct.selected = (oProduct.Name === sInputValue);
+		//	});
+		//	oModel.setProperty("/ProductCollection", aProducts);
+		},
+		
+				handleValueHelpClose : function (oEvent) {
+						this.dialog.close();
+	//		var oSelectedItem = oEvent.getParameter("selectedItem"),
+		//		oInput = this.byId("productInput");
+
+		//	if (oSelectedItem) {
+		//		this.byId("productInput").setValue(oSelectedItem.getTitle());
+		//	}
+
+		//	if (!oSelectedItem) {
+		//		oInput.resetProperty("value");
+		//	}
+		},
+			
+				handleSearch: function(oEvent) {
+			var sValue = oEvent.getParameter("value");
+			var oFilter = new Filter("Name", FilterOperator.Contains, sValue);
+			var oBinding = oEvent.getSource().getBinding("items");
+			oBinding.filter([oFilter]);
+		},
+		
+		closeDialog: function() {
+
+}
+		
 	});
 });

@@ -1,0 +1,37 @@
+
+	<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+	controllerName="gdsd.ApplicationForFunding1.controller.MainPage"
+	xmlns:mvc="sap.ui.core.mvc">
+	
+<SelectDialog
+		noDataText="No Products Found"
+		title="Select Product"
+		search="handleSearch"
+		confirm="handleValueHelpClose"
+		cancel="handleValueHelpClose"
+		showClearButton="true"
+		items="{
+			path : '/ProductCollection',
+			sorter : {
+				path : 'Name',
+				descending : false
+			}
+		}">
+	
+		<StandardListItem selected="{selected}"
+			title="{Name}"
+			description="{ProductId}"
+			icon="{ProductPicUrl}"
+			iconDensityAware="false"
+			iconInset="false"
+			type="Active" />
+			
+	</SelectDialog>
+
+	
+	
+</core:FragmentDefinition>

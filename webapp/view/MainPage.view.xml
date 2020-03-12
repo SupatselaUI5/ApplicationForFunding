@@ -30,7 +30,7 @@
 					                    </sap.ui.layout.form:FormElement>
 					                    <sap.ui.layout.form:FormElement xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" label="Organisation" id="element0_copy6">
 					                        <sap.ui.layout.form:fields>
-					                            <Input width="100%" id="input0_copy6" showValueHelp="true"/>
+					                            <Input width="100%" id="input0_copy6" showValueHelp="true" placeholder="Search for an Organisation" valueHelpRequest="onOrgValueHelp"/>
 					                            
 					                        </sap.ui.layout.form:fields>
 					                        
