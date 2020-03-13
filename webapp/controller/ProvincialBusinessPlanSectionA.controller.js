@@ -14,14 +14,22 @@ this.oRouter.getRoute("ProvincialBusinessPlanA").attachPatternMatched(this._onOb
 			
 		},
 		
+	
+		
 		_onObjectMatched: function () {
 this._oODataModel = this.getOwnerComponent().getModel();
 this._oODataModel.setDefaultBindingMode(sap.ui.model.BindingMode.TwoWay);
-this._oODataModel.read("/GET_BPSet('')", {
+this._oODataModel.read("/GET_BPSet('115')", {
 //User details retrieved successfully
 success: (function (oData) {
-	this.byId("sectionA").setModel(this._oODataModel);
+	this.byId("SectionA").setModel(this._oODataModel);
+	this.byId("SectionA").bindElement({
+	path: "/GET_BPSet('115')"	
+	});
 	
+
+	
+
 //console.log("Success " + oData);
 }).bind(this),
 

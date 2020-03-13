@@ -106,9 +106,6 @@ sap.ui.define([
 			oBinding.filter([oFilter]);
 		},
 		
-		closeDialog: function() {
-
-}
 		
 	});
 });
