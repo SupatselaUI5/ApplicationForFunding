@@ -50,9 +50,28 @@
 		"dependencies": {
 			"minUI5Version": "1.38.39",
 			"libs": {
-				"sap.ui.layout": {},
-				"sap.ui.core": {},
-				"sap.m": {}
+				"sap.m": {},
+				"sap.tnt": {
+					"minVersion": ""
+				},
+				"sap.ui.commons": {
+					"minVersion": ""
+				},
+				"sap.ui.comp": {
+					"minVersion": ""
+				},
+				"sap.ui.table": {
+					"minVersion": ""
+				},
+				"sap.ui.unified": {
+					"minVersion": ""
+				},
+				"sap.ui.ux3": {
+					"minVersion": ""
+				},
+				"sap.uxap": {
+					"minVersion": ""
+				}
 			}
 		},
 		"contentDensities": {
@@ -71,7 +90,7 @@
 				"settings": {
 					"defaultOperationMode": "Server",
 					"defaultBindingMode": "TwoWay",
-					"useBatch": false,
+					"useBatch": true,
 					"defaultCountMode": "Request"
 				},
 				"dataSource": "ZDSD_CRM_UI5_APP_SRV",

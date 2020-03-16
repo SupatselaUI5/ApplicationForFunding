@@ -2,36 +2,20 @@
 	
 			<Page id="provincialA" title="Provincial Business Plan">
 				<content>
-					
 					<ObjectHeader xmlns="sap.m" title="ECD Organisation" id="header0" icon="pictures/icon.jpg">
-					
-					                    <statuses>
-					
-					                     
-					
-					                        
-					
-					                    </statuses>
-					
-					                    <attributes>
-					
-					                        <ObjectAttribute text="BP Number" id="attribute0"/>
-					
-					                        
-					
+					    <statuses>
+					  </statuses>
+					    <attributes>
+					  <ObjectAttribute text="BP Number" id="attribute0"/>
 					                    </attributes>
-					
 					                    </ObjectHeader>
-					
 					<IconTabBar selectedKey="__xmlview0--filter2_copy17" id="bar0">
-					
 					    <items>
-					
 					        <IconTabFilter text="A1 Admin" icon="sap-icon://task" iconColor="Critical" id="filter1" key="adminKey">
 					
 					            <content>
 					
-					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="sectionA" editable="true">
+					                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="form0" editable="true">
 					
 					                    <sap.ui.layout.form:formContainers>
 					
@@ -47,10 +31,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" editable="false" value="{But000/Partner}" id="btnBP"/>
-					
-					                                        
-					
+					                                        <Input width="100%" editable="false" id="btnBP" value="{But000/Partner} {But000/NameFirst} {But000/NameLast}"/>
 					                                    </sap.ui.layout.form:fields>
 					
 					                                    
@@ -89,13 +70,13 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy12" editable="false"/>
+					                                        <Input width="100%" id="input0_copy12" editable="false" value="{Adrc/HouseNum1} {Adrc/Street}"/>
 					
 					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy13" editable="false"/>
 					
 					                                        <Label text="Postal Code" width="100%" id="label0_copy"/>
 					
-					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy14" editable="false"/>
+					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy14" editable="false" value="{Adrc/PostCode1}"/>
 					
 					                                        </sap.ui.layout.form:fields>
 					
@@ -107,7 +88,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy15" editable="false"/>
+					                                        <Input width="100%" id="input0_copy15" editable="false" value="{Adr2/TelNumber}"/>
 					
 					                                        
 					
@@ -121,7 +102,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy16" editable="false"/>
+					                                        <Input width="100%" id="input0_copy16" editable="false" value="{Adr2/TelnrCall}"/>
 					
 					                                        
 					
