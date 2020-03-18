@@ -20,7 +20,7 @@ this.oRouter.getRoute("ProvincialBusinessPlanA").attachPatternMatched(this._onOb
 				sap.ui.core.BusyIndicator.show();
 this._oODataModel = this.getOwnerComponent().getModel();
 this._oODataModel.setDefaultBindingMode(sap.ui.model.BindingMode.TwoWay);
-this._oODataModel.read("/GET_BPSet('115')", {
+this._oODataModel.read("/GET_BPSet('151')", {
 //User details retrieved successfully
 success: (function (oData) {
 //	this.byId("SectionA").setModel(this._oODataModel);
@@ -30,16 +30,13 @@ success: (function (oData) {
 	
 	this.byId("form0").setModel(this._oODataModel);
 						this.byId("form0").bindElement({
-							path: "/GET_BPSet('115')"
+							path: "/GET_BPSet('151')"
 							// use OData parameters here if needed
 						});
 							sap.ui.core.BusyIndicator.hide();
 //console.log("Success " + oData);
-}).bind(this),
+}).bind(this)
 
-error: (function (e, x, r) {
-//console.log("Error " + e);
-})
 
 });
 },

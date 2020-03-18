@@ -32,7 +32,7 @@
 					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Addrcomm" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Address Number"
 					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
 			<EntityType Name="GET_BP" sap:content-version="1">
-				<Key><PropertyRef Name="BpNo"/></Key><Property Name="Adr2" Type="ZDSD_CRM_UI5_APP_SRV.Adr2" Nullable="false"/><Property Name="Adr6" Type="ZDSD_CRM_UI5_APP_SRV.Adr6" Nullable="false"/><Property Name="But000" Type="ZDSD_CRM_UI5_APP_SRV.But000" Nullable="false"/><Property Name="Adrc" Type="ZDSD_CRM_UI5_APP_SRV.Adrc" Nullable="false"/><Property Name="BpNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="BusinessPartner"
+				<Key><PropertyRef Name="BpNo"/></Key><Property Name="Adr2" Type="ZDSD_CRM_UI5_APP_SRV.Adr2" Nullable="false"/><Property Name="But0id" Type="ZDSD_CRM_UI5_APP_SRV.But0id" Nullable="false"/><Property Name="Adr6" Type="ZDSD_CRM_UI5_APP_SRV.Adr6" Nullable="false"/><Property Name="But000" Type="ZDSD_CRM_UI5_APP_SRV.But000" Nullable="false"/><Property Name="Adrc" Type="ZDSD_CRM_UI5_APP_SRV.Adrc" Nullable="false"/><Property Name="BpNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="BusinessPartner"
 					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
 			<EntityType Name="GetBeneficiary" sap:content-version="1">
 				<Key><PropertyRef Name="BpNo"/></Key><Property Name="Adr2" Type="ZDSD_CRM_UI5_APP_SRV.Adr2" Nullable="false"/><Property Name="Adr6" Type="ZDSD_CRM_UI5_APP_SRV.Adr6" Nullable="false"/><Property Name="But000" Type="ZDSD_CRM_UI5_APP_SRV.But000" Nullable="false"/><Property Name="Adrc" Type="ZDSD_CRM_UI5_APP_SRV.Adrc" Nullable="false"/><Property Name="BpNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="BusinessPartner"
@@ -253,6 +253,15 @@
 				sap:filterable="false"/><Property Name="Xpcpt" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Purpose Completed" sap:creatable="false"
 				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Natpers" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Natural Person" sap:creatable="false"
 				sap:updatable="false" sap:sortable="false" sap:filterable="false"/></ComplexType>
+			<ComplexType Name="But0id"><Property Name="Partner" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="BusinessPartner" sap:creatable="false"
+				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Type" Type="Edm.String" Nullable="false" MaxLength="6" sap:label="ID Type" sap:creatable="false" sap:updatable="false"
+				sap:sortable="false" sap:filterable="false"/><Property Name="Idnumber" Type="Edm.String" Nullable="false" MaxLength="60" sap:label="ID number" sap:creatable="false"
+				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Institute" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Institution" sap:creatable="false"
+				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Country" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Country" sap:creatable="false" sap:updatable="false"
+				sap:sortable="false" sap:filterable="false"/><Property Name="Region" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Region" sap:creatable="false" sap:updatable="false"
+				sap:sortable="false" sap:filterable="false"/><Property Name="IdnumberGuid" Type="Edm.Guid" Nullable="false" sap:label="ID GUID" sap:creatable="false" sap:updatable="false"
+				sap:sortable="false" sap:filterable="false"/><Property Name="BpEewBut0id" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Dummy" sap:creatable="false" sap:updatable="false"
+				sap:sortable="false" sap:filterable="false"/></ComplexType>
 			<EntityContainer Name="ZDSD_CRM_UI5_APP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="GET_BPSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GET_BP" sap:creatable="false" sap:updatable="false" sap:deletable="false"
 				sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetBeneficiarySet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetBeneficiary" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetDirectorSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetDirector" sap:creatable="false" sap:updatable="false"

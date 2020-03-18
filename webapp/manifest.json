@@ -48,7 +48,7 @@
 			"id": "App"
 		},
 		"dependencies": {
-			"minUI5Version": "1.38.39",
+			"minUI5Version": "1.63.1",
 			"libs": {
 				"sap.m": {},
 				"sap.tnt": {
@@ -98,9 +98,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"routing": {
 			"config": {
@@ -112,17 +114,24 @@
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [{
-				"name": "MainPage",
-				"pattern": "",
-				"titleTarget": "",
-				"greedy": false,
-				"target": ["MainPage"]
-			}, {
-				"name": "ProvincialBusinessPlanA",
-				"pattern": "ProvincialBusinessPlanSectionA",
-				"target": ["ProvincialBusinessPlanA"]
-			}],
+			"routes": [
+				{
+					"name": "MainPage",
+					"pattern": "",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"MainPage"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanA",
+					"pattern": "ProvincialBusinessPlanSectionA",
+					"target": [
+						"ProvincialBusinessPlanA"
+					]
+				}
+			],
 			"targets": {
 				"MainPage": {
 					"viewType": "XML",
@@ -139,5 +148,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zdsd_crm_fund/webapp",
+		"_version": "1.1.0"
 	}
 }

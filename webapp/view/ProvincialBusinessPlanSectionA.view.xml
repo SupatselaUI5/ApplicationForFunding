@@ -42,7 +42,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy5" editable="false"/>
+					                                        <Input width="100%" id="input0_copy5" editable="false" value="{But000/NameOrg1} {But000/NameOrg2}"/>
 					
 					                                        
 					
@@ -56,7 +56,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy11" editable="false"/>
+					                                        <Input width="100%" id="input0_copy11" editable="false" value="{But0id/Idnumber}"/>
 					
 					                                        
 					
@@ -70,9 +70,9 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy12" editable="false" value="{Adrc/HouseNum1} {Adrc/Street}"/>
+					                                        <Input width="100%" id="idPoBox" editable="false" value="{Adrc/PoBox}"/>
 					
-					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy13" editable="false"/>
+					                                        <Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" width="100%" id="input0_copy13" editable="false" value="{Adrc/Street}"/>
 					
 					                                        <Label text="Postal Code" width="100%" id="label0_copy"/>
 					
@@ -88,7 +88,7 @@
 					
 					                                    <sap.ui.layout.form:fields>
 					
-					                                        <Input width="100%" id="input0_copy15" editable="false" value="{Adr2/TelNumber}"/>
+					                                        <Input width="100%" id="input0_copy15" editable="false" value="{Adrc/TelNumber}"/>
 					
 					                                        
 					
