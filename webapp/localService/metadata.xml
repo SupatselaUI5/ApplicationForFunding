@@ -46,6 +46,12 @@
 			<EntityType Name="GetVolunteers" sap:content-version="1">
 				<Key><PropertyRef Name="BpNo"/></Key><Property Name="Adr2" Type="ZDSD_CRM_UI5_APP_SRV.Adr2" Nullable="false"/><Property Name="Adr6" Type="ZDSD_CRM_UI5_APP_SRV.Adr6" Nullable="false"/><Property Name="But000" Type="ZDSD_CRM_UI5_APP_SRV.But000" Nullable="false"/><Property Name="Adrc" Type="ZDSD_CRM_UI5_APP_SRV.Adrc" Nullable="false"/><Property Name="BpNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="BusinessPartner"
 					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="GetBPProgram" sap:content-version="1">
+				<Key><PropertyRef Name="Partner"/></Key><Property Name="Partner" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="BusinessPartner"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Istype" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Industry System"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IndSector" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Industry" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="100" sap:unicode="false" sap:label="Description" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
 			<ComplexType Name="Adr2"><Property Name="Addrnumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Address Number" sap:creatable="false"
 				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Persnumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Person number" sap:creatable="false"
 				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Consnumber" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Sequence Number" sap:creatable="false"
@@ -267,6 +273,7 @@
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetDirectorSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetDirector" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetEmployeeSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetEmployee" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetVolunteersSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetVolunteers" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetBPProgramSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetBPProgram" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="BPHeaderSet" EntityType="ZDSD_CRM_UI5_APP_SRV.BPHeader" sap:creatable="false" sap:updatable="false" sap:deletable="false"
 				sap:searchable="true" sap:pageable="false" sap:content-version="1"/></EntityContainer><atom:link rel="self"
 				href="https://webidecp-s0021533672trial.dispatcher.hanatrial.ondemand.com/destinations/GatewayHTTP/sap/opu/odata/sap/ZDSD_CRM_UI5_APP_SRV/$metadata"

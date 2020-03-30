@@ -48,7 +48,7 @@
 			"id": "App"
 		},
 		"dependencies": {
-			"minUI5Version": "1.63.1",
+			"minUI5Version": "1.75.0",
 			"libs": {
 				"sap.m": {},
 				"sap.tnt": {
@@ -130,6 +130,13 @@
 					"target": [
 						"ProvincialBusinessPlanA"
 					]
+				},
+				{
+					"name": "ProvincialBusinessPlanB",
+					"pattern": "ProvincialBusinessPlanSectionA",
+					"target": [
+						"ProvincialBusinessPlanB"
+					]
 				}
 			],
 			"targets": {
@@ -145,6 +152,20 @@
 				"DialogOrganisation": {
 					"viewType": "XML",
 					"viewName": "DialogOrganisation"
+				},
+				"ProgramFragment": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "ProvincialBusinessPlanSectionA"
+				},
+				"DialogAddProgram": {
+					"viewType": "XML",
+					"viewName": "DialogAddProgram"
+				},
+				"ProvincialBusinessPlanB": {
+					"viewType": "XML",
+					"viewName": "ProvincialBusinessPlanSectionB"
 				}
 			}
 		}
