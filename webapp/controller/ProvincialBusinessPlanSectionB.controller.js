@@ -7,6 +7,20 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 		 * @memberOf gdsd.SocialCareSolution.view.ProvincialBusinessPlanSectionB
 		 */
 		onInit: function () {},
+
+		onToSus: function () {
+			this.byId("bar0").setSelectedKey("susKey");
+		},
+		onToCess: function () {
+			this.byId("bar0").setSelectedKey("cessKey");
+		},
+		onToBudget: function () {
+			this.byId("bar0").setSelectedKey("budgetKey");
+		},
+		onToPriority: function () {
+			this.byId("bar0").setSelectedKey("priorityKey");
+		},
+
 		/**
 		 *@memberOf gdsd.SocialCareSolution.controller.ProvincialBusinessPlanSectionB
 		 */

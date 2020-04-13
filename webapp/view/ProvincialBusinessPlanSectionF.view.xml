@@ -81,7 +81,7 @@
 		
 				        <items>
 		
-				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="onToProvince"/>
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionD'\}\}\}"/>
 		
 				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Complete Application" id="button0_copy19" icon="sap-icon://save"/>
 		

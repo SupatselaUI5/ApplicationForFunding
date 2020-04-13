@@ -7,6 +7,34 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 		 * @memberOf gdsd.SocialCareSolution.view.ProvincialBusinessPlanSectionD
 		 */
 		onInit: function () {},
+
+		onToD1: function () {
+			this.byId("bar0").setSelectedKey("D1");
+		},
+		onToD2: function () {
+			this.byId("bar0").setSelectedKey("D2");
+		},
+		onToD3: function () {
+			this.byId("bar0").setSelectedKey("D3");
+		},
+		onToD4: function () {
+			this.byId("bar0").setSelectedKey("D4");
+		},
+		onToD5: function () {
+			this.byId("bar0").setSelectedKey("D5");
+		},
+		onToD6: function () {
+			this.byId("bar0").setSelectedKey("D6");
+		},
+		onToD7: function () {
+			this.byId("bar0").setSelectedKey("D7");
+		},
+		onToD8: function () {
+			this.byId("bar0").setSelectedKey("D8");
+		},
+		onToD9: function () {
+			this.byId("bar0").setSelectedKey("D9");
+		},
 		/**
 		 *@memberOf gdsd.ApplicationForFunding1.controller.ProvincialBusinessPlanSectionD
 		 */

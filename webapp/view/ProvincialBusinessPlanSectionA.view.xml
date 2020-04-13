@@ -1,6 +1,6 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="gdsd.ApplicationForFunding1.controller.ProvincialBusinessPlanSectionA">
 	
-			<Page id="provincialA" title="Provincial Business Plan">
+			<Page id="planA" title="Provincial Business Plan">
 				<content>
 					<ObjectHeader xmlns="sap.m" title="ECD Organisation" id="header0" icon="pictures/icon.jpg">
 					    <statuses>

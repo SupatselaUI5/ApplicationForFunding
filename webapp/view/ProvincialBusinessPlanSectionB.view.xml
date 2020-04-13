@@ -9,7 +9,7 @@
 					    </HBox>
 						<IconTabBar selectedKey="__xmlview0--filter2" id="bar0">
 						    <items>
-						        <IconTabFilter text="B1 Sustainability Plan" icon="sap-icon://task" iconColor="Critical" id="filter1">
+						        <IconTabFilter text="B1 Sustainability Plan" icon="sap-icon://task" iconColor="Critical" id="filter1" key="susKey">
 						        	
 						        <content>
 						        	
@@ -61,9 +61,9 @@
 						        	
 						                <items>
 						        	
-						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1" icon="sap-icon://nav-back" press="onToPoor2"/>
+						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1" icon="sap-icon://nav-back" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionA'\}\}\}"/>
 						        	
-						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy15" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy15" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToCess"/>
 						        	
 						                    </items>
 						        	
@@ -74,7 +74,7 @@
 						        </content>
 						        	
 						        </IconTabFilter>	
-						        <IconTabFilter text="B2 Cessation " icon="sap-icon://newspaper" iconColor="Positive" id="filter2">
+						        <IconTabFilter text="B2 Cessation " icon="sap-icon://newspaper" iconColor="Positive" key="cessKey">
 						        	
 						        	
 						        <content>
@@ -152,10 +152,10 @@
 						                <items>
 						        	
 						        	
-						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy16" icon="sap-icon://nav-back" press="onToPoor2"/>
+						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy16" icon="sap-icon://nav-back" press="onToSus"/>
 						        	
 						        	
-						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy16" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+						                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy16" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToBudget"/>
 						        	
 						        	
 						                    </items>
@@ -177,7 +177,7 @@
 						        	
 						        	
 						        </IconTabFilter>	
-						        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="B3 Budget " icon="sap-icon://customer-financial-fact-sheet" iconColor="Positive" id="filter2_copy">	
+						        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="B3 Budget " icon="sap-icon://customer-financial-fact-sheet" iconColor="Positive" id="filter2_copy" key="budgetKey">	
 						            <content>	
 						                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy2">	
 						                    <sap.ui.layout.form:formContainers>	
@@ -203,14 +203,14 @@
 						                    </sap.ui.layout.form:Form>	
 						                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy15" alignItems="Center" justifyContent="Center">	
 						                    <items>	
-						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy17" icon="sap-icon://nav-back" press="onToPoor2"/>	
-						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy17" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>	
+						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy17" icon="sap-icon://nav-back" press="onToCess"/>	
+						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy17" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToPriority"/>	
 						                        </items>	
 						                    	
 						                </FlexBox>	
 						            </content>	
 						            </IconTabFilter>	
-						        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="B4 Priority " icon="sap-icon://system-exit-2" iconColor="Positive" id="filter2_copy2">	
+						        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="B4 Priority " icon="sap-icon://system-exit-2" iconColor="Positive" id="filter2_copy2" key="priorityKey">	
 						            <content>	
 						                <sap.ui.layout.form:Form xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0_copy3">	
 						                    <sap.ui.layout.form:formContainers>	
@@ -236,7 +236,7 @@
 						                    </sap.ui.layout.form:Form>	
 						                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy16" alignItems="Center" justifyContent="Center" alignContent="Center" direction="Column">	
 						                    <items>	
-						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="onToProvince"/>	
+						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="onToBudget"/>	
 						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Save Progress" id="button0_copy19" icon="sap-icon://save"/>	
 						                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Proceed - Section D" id="button0_copy20" icon="sap-icon://forward" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionD'\}\}\}"/>	
 						                        </items>	
