@@ -1734,7 +1734,7 @@
 					
 					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy13" icon="sap-icon://nav-back" press="onToType"/>
 					
-					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy13" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToPoor2"/>
+					                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy13" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProvince"/>
 					
 					                        </items>
 					
