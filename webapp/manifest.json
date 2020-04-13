@@ -107,9 +107,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"routing": {
 			"config": {
@@ -121,29 +123,45 @@
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [{
-				"name": "ProvincialBusinessPlanA",
-				"pattern": "",
-				"titleTarget": "",
-				"greedy": false,
-				"target": ["ProvincialBusinessPlanA"]
-			}, {
-				"name": "ProvincialBusinessPlanSectionA",
-				"pattern": "ProvincialBusinessPlanSectionA",
-				"target": ["ProvincialBusinessPlanA"]
-			}, {
-				"name": "ProvincialBusinessPlanSectionB",
-				"pattern": "ProvincialBusinessPlanSectionB",
-				"target": ["ProvincialBusinessPlanB"]
-			}, {
-				"name": "ProvincialBusinessPlanSectionD",
-				"pattern": "ProvincialBusinessPlanSectionD",
-				"target": ["ProvincialBusinessPlanD"]
-			}, {
-				"name": "ProvincialBusinessPlanSectionF",
-				"pattern": "ProvincialBusinessPlanSectionF",
-				"target": ["ProvincialBusinessPlanF"]
-			}],
+			"routes": [
+				{
+					"name": "ProvincialBusinessPlanA",
+					"pattern": "",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"ProvincialBusinessPlanA"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionA",
+					"pattern": "ProvincialBusinessPlanSectionA",
+					"target": [
+						"ProvincialBusinessPlanA"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionB",
+					"pattern": "ProvincialBusinessPlanSectionB",
+					"target": [
+						"ProvincialBusinessPlanB"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionD",
+					"pattern": "ProvincialBusinessPlanSectionD",
+					"target": [
+						"ProvincialBusinessPlanD"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionF",
+					"pattern": "ProvincialBusinessPlanSectionF",
+					"target": [
+						"ProvincialBusinessPlanF"
+					]
+				}
+			],
 			"targets": {
 				"ProvincialBusinessPlanA": {
 					"viewType": "XML",
