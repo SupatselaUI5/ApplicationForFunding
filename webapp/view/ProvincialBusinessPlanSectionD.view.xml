@@ -297,6 +297,48 @@
 					
 			
 					
+				    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy13" alignItems="Center" justifyContent="Center">
+					
+				
+					
+			
+					
+				        <items>
+					
+				
+					
+			
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+				
+					
+			
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy15" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+				
+					
+			
+					
+				            </items>
+					
+				
+					
+			
+					
+				        
+					
+				
+					
+			
+					
+				    </FlexBox>
+					
+				
+					
+			
+					
 				</content>
 				        	</IconTabFilter>
 					
@@ -523,6 +565,27 @@
 						        </sap.ui.layout.form:Form>
 				        	
 				        	
+						    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy14" alignItems="Center" justifyContent="Center">
+				        	
+				        	
+						        <items>
+				        	
+				        	
+						            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy" icon="sap-icon://nav-back" press="onToPoor2"/>
+				        	
+				        	
+						            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy16" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+				        	
+				        	
+						            </items>
+				        	
+				        	
+						        
+				        	
+				        	
+						    </FlexBox>
+				        	
+				        	
 						</content>
 				        	
 				        	
@@ -728,6 +791,27 @@
 					
 					
 				                    </sap.ui.layout.form:Form>
+					
+					
+				                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy15" alignItems="Center" justifyContent="Center">
+					
+					
+				                    <items>
+					
+					
+				                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy2" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+					
+				                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy17" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+					
+				                        </items>
+					
+					
+				                    
+					
+					
+				                </FlexBox>
 					
 					
 				            </content>
@@ -958,6 +1042,27 @@
 				                    </sap.ui.layout.form:Form>
 					
 					
+				                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy17" alignItems="Center" justifyContent="Center">
+					
+					
+				                    <items>
+					
+					
+				                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy3" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+					
+				                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy18" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+					
+				                        </items>
+					
+					
+				                    
+					
+					
+				                </FlexBox>
+					
+					
 				            </content>
 					
 					
@@ -1111,6 +1216,27 @@
 				                    </sap.ui.layout.form:Form>
 					
 					
+				                <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy18" alignItems="Center" justifyContent="Center">
+					
+					
+				                    <items>
+					
+					
+				                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy4" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+					
+				                        <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy19" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+					
+				                        </items>
+					
+					
+				                    
+					
+					
+				                </FlexBox>
+					
+					
 				            </content>
 					
 					
@@ -1150,6 +1276,20 @@
 				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0"/>
 					
 				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+				    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy19" alignItems="Center" justifyContent="Center">
+					
+				        <items>
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy5" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy20" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+				            </items>
+					
+				        
+					
+				    </FlexBox>
 					
 				</content>
 				
@@ -1217,6 +1357,34 @@
 				
 					
 				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+					
+				
+					
+				    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy20" alignItems="Center" justifyContent="Center">
+					
+				
+					
+				        <items>
+					
+				
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy6" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+				
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy21" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+				
+					
+				            </items>
+					
+				
+					
+				        
+					
+				
+					
+				    </FlexBox>
 					
 				
 					
@@ -1353,6 +1521,62 @@
 					
 				
 					
+				    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy21" alignItems="Center" justifyContent="Center">
+					
+				
+					
+			
+					
+				
+					
+				        <items>
+					
+				
+					
+			
+					
+				
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="btnPrevB1_copy7" icon="sap-icon://nav-back" press="onToPoor2"/>
+					
+				
+					
+			
+					
+				
+					
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Next" id="button1_copy22" icon="sap-icon://navigation-right-arrow" iconFirst="false" press="onToProfile"/>
+					
+				
+					
+			
+					
+				
+					
+				            </items>
+					
+				
+					
+			
+					
+				
+					
+				        
+					
+				
+					
+			
+					
+				
+					
+				    </FlexBox>
+					
+				
+					
+			
+					
+				
+					
 				</content>
 					
 				
@@ -1463,6 +1687,14 @@
 				            <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1581851279790"/>
 					
 				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+				    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy16" alignItems="Center" justifyContent="Center" alignContent="Center" direction="Column">
+				        <items>
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="onToProvince"/>
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Save Progress" id="button0_copy19" icon="sap-icon://save"/>
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Proceed - Section F" id="button0_copy20" icon="sap-icon://forward" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProvincialBusinessPlanSectionF'\}\}\}"/>
+				            </items>
+				        
+				    </FlexBox>
 					
 					
 				</content>
@@ -1486,17 +1718,6 @@
 					
 					
 				</content>
-			<footer>
-			      
-			            <Toolbar xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" class="sapContrast sapContrastPlus" width="100%" id="toolbar1_copy">
-			                <content>
-			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Cancel" id="button0"/>
-			                    <ToolbarSpacer xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="spacer0"/>
-			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Previous" id="button1_1581762131371" type="Back"/>
-			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Procced" id="button1" type="Emphasized"/>
-			                    </content>
-			            </Toolbar>
-			</footer>
 			</Page>
 		
 </mvc:View>

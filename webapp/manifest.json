@@ -142,9 +142,46 @@
 				},
 				{
 					"name": "ProvincialBusinessPlanB",
-					"pattern": "ProvincialBusinessPlanSectionA",
+					"pattern": "",
 					"target": [
 						"ProvincialBusinessPlanB"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanD",
+					"pattern": "ProvincialBusinessPlanSectionD",
+					"target": [
+						"ProvincialBusinessPlanD"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanF",
+					"pattern": "",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"ProvincialBusinessPlanF"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionD",
+					"pattern": "ProvincialBusinessPlanSectionD",
+					"target": [
+						"ProvincialBusinessPlanD"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionB",
+					"pattern": "ProvincialBusinessPlanSectionB",
+					"target": [
+						"ProvincialBusinessPlanB"
+					]
+				},
+				{
+					"name": "ProvincialBusinessPlanSectionF",
+					"pattern": "ProvincialBusinessPlanSectionF",
+					"target": [
+						"ProvincialBusinessPlanF"
 					]
 				}
 			],
@@ -156,7 +193,8 @@
 				},
 				"ProvincialBusinessPlanA": {
 					"viewType": "XML",
-					"viewName": "ProvincialBusinessPlanSectionA"
+					"viewName": "ProvincialBusinessPlanSectionA",
+					"viewId": "planA"
 				},
 				"DialogOrganisation": {
 					"viewType": "XML",
@@ -174,7 +212,22 @@
 				},
 				"ProvincialBusinessPlanB": {
 					"viewType": "XML",
-					"viewName": "ProvincialBusinessPlanSectionB"
+					"viewName": "ProvincialBusinessPlanSectionB",
+					"viewId": "planB"
+				},
+				"ProvincialBusinessPlanD": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "ProvincialBusinessPlanSectionD",
+					"viewId": "planD"
+				},
+				"ProvincialBusinessPlanF": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "ProvincialBusinessPlanSectionF",
+					"viewId": "planF"
 				}
 			}
 		}

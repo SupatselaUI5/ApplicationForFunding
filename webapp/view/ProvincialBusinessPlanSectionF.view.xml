@@ -15,10 +15,6 @@
 				        <IconTabFilter text="F Checklist" icon="sap-icon://task" iconColor="Critical" id="filter1">
 				        
 				        </IconTabFilter>
-					
-				        <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="F Checklist" icon="sap-icon://task" iconColor="Critical" id="filter1_copy">
-					
-				            </IconTabFilter>
 					</items>
 		
 				<content>
@@ -81,22 +77,25 @@
 		
 				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
 		
+				    <FlexBox xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" width="100%" id="box0_1582551913223_copy16" alignItems="Center" justifyContent="Center" alignContent="Center" direction="Column">
+		
+				        <items>
+		
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Previous" id="button0_copy18" icon="sap-icon://nav-back" press="onToProvince"/>
+		
+				            <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Complete Application" id="button0_copy19" icon="sap-icon://save"/>
+		
+				            </items>
+		
+				        
+		
+				    </FlexBox>
+		
 				</content>
 		
 				</IconTabBar>
 					
 				</content>
-						<footer>
-			      
-			            <Toolbar xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" class="sapContrast sapContrastPlus" width="100%" id="toolbar1_copy">
-			                <content>
-			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Cancel" id="button0"/>
-			                    <ToolbarSpacer xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="spacer0"/>
-			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Previous" id="button1_1581762131371" type="Back"/>
-			                    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Procced" id="button1" type="Emphasized"/>
-			                    </content>
-			            </Toolbar>
-			</footer>
 			</Page>
 	
 </mvc:View>

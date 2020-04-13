@@ -52,6 +52,21 @@
 					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IndSector" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Industry" sap:creatable="false"
 					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="100" sap:unicode="false" sap:label="Description" sap:creatable="false"
 					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="GetQuestionnaireH" sap:content-version="1">
+				<Key><PropertyRef Name="Sdbno"/></Key><Property Name="Sdbno" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Problem Number"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Problem" Type="Edm.String" Nullable="false" MaxLength="132" sap:unicode="false" sap:label="Text Line" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><NavigationProperty Name="ProblemToSolutionNav" Relationship="ZDSD_CRM_UI5_APP_SRV.ProblemToSolutionAss"
+					FromRole="FromRole_ProblemToSolutionAss" ToRole="ToRole_ProblemToSolutionAss"/></EntityType>
+			<EntityType Name="GetQuestionnaireS" sap:content-version="1">
+				<Key><PropertyRef Name="Sdbno"/><PropertyRef Name="Islnr"/></Key><Property Name="Sdbno" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Problem Number"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Islnr" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Solution Number"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Solution" Type="Edm.String" Nullable="false" MaxLength="132" sap:unicode="false" sap:label="Text Line" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="Get_Funding_Task" sap:content-version="1">
+				<Key><PropertyRef Name="BpNo"/><PropertyRef Name="ObjectId"/></Key><Property Name="BpNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="BusinessPartner"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ObjectId" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Transaction ID"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Description"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
 			<ComplexType Name="Adr2"><Property Name="Addrnumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Address Number" sap:creatable="false"
 				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Persnumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Person number" sap:creatable="false"
 				sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Consnumber" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Sequence Number" sap:creatable="false"
@@ -268,14 +283,26 @@
 				sap:sortable="false" sap:filterable="false"/><Property Name="IdnumberGuid" Type="Edm.Guid" Nullable="false" sap:label="ID GUID" sap:creatable="false" sap:updatable="false"
 				sap:sortable="false" sap:filterable="false"/><Property Name="BpEewBut0id" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Dummy" sap:creatable="false" sap:updatable="false"
 				sap:sortable="false" sap:filterable="false"/></ComplexType>
+			<Association Name="ProblemToSolutionAss" sap:content-version="1"><End Type="ZDSD_CRM_UI5_APP_SRV.GetQuestionnaireH" Multiplicity="1" Role="FromRole_ProblemToSolutionAss"/><End Type="ZDSD_CRM_UI5_APP_SRV.GetQuestionnaireS" Multiplicity="*" Role="ToRole_ProblemToSolutionAss"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ProblemToSolutionAss"><PropertyRef Name="Sdbno"/></Principal>
+					<Dependent Role="ToRole_ProblemToSolutionAss"><PropertyRef Name="Sdbno"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
 			<EntityContainer Name="ZDSD_CRM_UI5_APP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="GET_BPSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GET_BP" sap:creatable="false" sap:updatable="false" sap:deletable="false"
 				sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetBeneficiarySet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetBeneficiary" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetDirectorSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetDirector" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetEmployeeSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetEmployee" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetVolunteersSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetVolunteers" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetBPProgramSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetBPProgram" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetQuestionnaireHSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetQuestionnaireH" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="GetQuestionnaireSSet" EntityType="ZDSD_CRM_UI5_APP_SRV.GetQuestionnaireS" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="Get_Funding_TaskSet" EntityType="ZDSD_CRM_UI5_APP_SRV.Get_Funding_Task" sap:creatable="false" sap:updatable="false"
 				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="BPHeaderSet" EntityType="ZDSD_CRM_UI5_APP_SRV.BPHeader" sap:creatable="false" sap:updatable="false" sap:deletable="false"
-				sap:searchable="true" sap:pageable="false" sap:content-version="1"/></EntityContainer><atom:link rel="self"
+				sap:searchable="true" sap:pageable="false" sap:content-version="1"/>
+				<AssociationSet Name="ProblemToSolutionAssSet" Association="ZDSD_CRM_UI5_APP_SRV.ProblemToSolutionAss" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="GetQuestionnaireHSet" Role="FromRole_ProblemToSolutionAss"/><End EntitySet="GetQuestionnaireSSet" Role="ToRole_ProblemToSolutionAss"/></AssociationSet>
+			</EntityContainer><atom:link rel="self"
 				href="https://webidecp-s0021533672trial.dispatcher.hanatrial.ondemand.com/destinations/GatewayHTTP/sap/opu/odata/sap/ZDSD_CRM_UI5_APP_SRV/$metadata"
 				xmlns:atom="http://www.w3.org/2005/Atom"/><atom:link rel="latest-version"
 				href="https://webidecp-s0021533672trial.dispatcher.hanatrial.ondemand.com/destinations/GatewayHTTP/sap/opu/odata/sap/ZDSD_CRM_UI5_APP_SRV/$metadata"
