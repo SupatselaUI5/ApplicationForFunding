@@ -53,6 +53,15 @@ success: (function (oData) {
 							path: "/GET_BPSet('151')"
 							// use OData parameters here if needed
 						});
+						
+						
+						
+							this.byId("header0").setModel(this._oODataModel);
+						this.byId("header0").bindElement({
+							path: "/GET_BPSet('151')"
+							// use OData parameters here if needed
+						});
+						
 							this.byId("form0_0").bindElement({
 							path: "/GET_BPSet('151')"
 							// use OData parameters here if needed

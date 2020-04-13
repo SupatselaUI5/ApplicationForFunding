@@ -11,7 +11,7 @@
 		"description": "{{appDescription}}",
 		"sourceTemplate": {
 			"id": "servicecatalog.connectivityComponentForManifest",
-			"version": "0.0.0"
+			"version": "1.40.12"
 		},
 		"dataSources": {
 			"ZDSD_CRM_UI5_APP_SRV": {
@@ -48,8 +48,14 @@
 			"id": "App"
 		},
 		"dependencies": {
-			"minUI5Version": "1.75.0",
+			"minUI5Version": "1.65.6",
 			"libs": {
+				"sap.f": {
+					"minVersion": ""
+				},
+				"sap.fiori": {
+					"minVersion": ""
+				},
 				"sap.m": {},
 				"sap.tnt": {
 					"minVersion": ""
@@ -58,6 +64,9 @@
 					"minVersion": ""
 				},
 				"sap.ui.comp": {
+					"minVersion": ""
+				},
+				"sap.ui.core": {
 					"minVersion": ""
 				},
 				"sap.ui.table": {

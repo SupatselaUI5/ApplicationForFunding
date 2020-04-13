@@ -6,7 +6,7 @@
 					    <statuses>
 					  </statuses>
 					    <attributes>
-					  <ObjectAttribute text="BP Number" id="attribute0"/>
+					  <ObjectAttribute text="BP Number : {But000/Partner}" id="attribute0"/>
 					                    </attributes>
 					                    </ObjectHeader>
 					<IconTabBar selectedKey="adminKey" id="bar0">
